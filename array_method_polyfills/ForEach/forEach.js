@@ -6,7 +6,7 @@
 Array.prototype.myFor=function(cb_fn){
     // here this will representing the myFor method's parent
     for(var i=0;i<this.length;i++){
-        cb_fn(this[i])
+        cb_fn(this[i],i,this)
     }
 }
 
